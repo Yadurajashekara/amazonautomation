@@ -21,17 +21,25 @@ This project automates tasks on Amazon India using Java and Selenium WebDriver w
 This automation script performs the following tasks:
 
 1.Searches for "Wrist Watches" on Amazon India.
+
 2.Filters by "Leather" under Watch Band Material.
+
 3.Selects "Fastrack" as the brand.
+
 4.Navigates to the 2nd page of results.
+
 5.Adds the first product in the 1st row to the cart.
 
 ### TECNOLOGIES
 
 1.Java (JDK 8 or later)
+
 2.Selenium WebDriver
+
 3.ChromeDriver
+
 4.Maven (for dependency management)
+
 5.JUnit/TestNG (optional for testing)
 
 ### SETUP
@@ -39,7 +47,9 @@ This automation script performs the following tasks:
 Prerequisites
 
 1.Java JDK installed
+
 2.Chrome browser installed
+
 3.ChromeDriver installed and added to PATH
 
 ###  INSTALLATION
@@ -98,7 +108,11 @@ leatherFilter.click();
 ### CONTRIBUTING
 
 1.Fork the repository.
+
 2.Create a branch (feature-branch).
+
 3.Commit your changes (git commit -m 'Add feature').
+
 4.Push to the branch (git push origin feature-branch).
+
 5.Open a pull request.
