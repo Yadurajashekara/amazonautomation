@@ -1,8 +1,8 @@
-# Amazon Automation - Selenium Task (Java)
+# AMAZON AUTOMATION - SELENIUM TASK (JAVA)
 
 This project automates tasks on Amazon India using Java and Selenium WebDriver with Chrome. The script searches for wristwatches, applies filters, navigates pages, and adds a product to the cart.
 
-## Table of Contents
+## TABLE OF CONTENTS
 
 1.Overview
 2.Technologies
@@ -60,7 +60,7 @@ Add the following dependencies to pom.xml (if using Maven):
 
 System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
 
-### Usage
+### USAGE
 
 1.Compile and run the Java class AmazonAutomationWithExplicitWait:
 
