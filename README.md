@@ -21,7 +21,7 @@ This automation script performs the following tasks:
 4.Navigates to the 2nd page of results.
 5.Adds the first product in the 1st row to the cart.
 
-#### TECNOLOGIES
+### TECNOLOGIES
 
 1.Java (JDK 8 or later)
 2.Selenium WebDriver
@@ -29,7 +29,7 @@ This automation script performs the following tasks:
 4.Maven (for dependency management)
 5.JUnit/TestNG (optional for testing)
 
-##### SETUP
+### SETUP
 
 Prerequisites
 
@@ -37,7 +37,7 @@ Prerequisites
 2.Chrome browser installed
 3.ChromeDriver installed and added to PATH
 
-###### INSTALLATION
+###  INSTALLATION
 
 1.Clone the repository:
 
@@ -69,7 +69,7 @@ java AmazonAutomationWithExplicitWait
 
 2.The script will open Chrome, search for wristwatches, apply the required filters, and add a product to the cart.
 
-######## EXAMPLE CODE
+### EXAMPLE CODE
 
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.amazon.in");
@@ -79,7 +79,7 @@ WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
 searchBox.sendKeys("Wrist Watches");
 searchBox.submit();
 
-######### CODE
+### CODE
 
 The key part of the Selenium script is the use of explicit waits to ensure that the page elements are interactable before performing actions:
 
@@ -90,7 +90,7 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 WebElement leatherFilter = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Leather']")));
 leatherFilter.click();
 
-######### CONTRIBUTING
+### CONTRIBUTING
 
 1.Fork the repository.
 2.Create a branch (feature-branch).
