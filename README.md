@@ -60,7 +60,7 @@ Add the following dependencies to pom.xml (if using Maven):
 
 System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
 
-####### Usage
+### Usage
 
 1.Compile and run the Java class AmazonAutomationWithExplicitWait:
 
