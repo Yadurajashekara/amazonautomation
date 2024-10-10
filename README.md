@@ -5,10 +5,15 @@ This project automates tasks on Amazon India using Java and Selenium WebDriver w
 ## TABLE OF CONTENTS
 
 1.Overview
+
 2.Technologies
+
 3.Setup
+
 4.Usage
+
 5.Code
+
 6.Contributing
 
 ### OVERVIEW
